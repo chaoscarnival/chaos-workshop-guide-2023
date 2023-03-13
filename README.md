@@ -31,11 +31,17 @@ Welcome to the Chaos Workshop!! Follow the steps provided below to successfully 
   
 ## Setup The Chaos Infrastructure 
 
-- Now, proceed with setting up of the chaos infrastructure. You will be needed to create a new "Environment", followed by the download of a manifest to install a "namespaced-scoped" chaos infra in the provided sandbox environment. 
+- Now, proceed with setting up of the chaos infrastructure on the "default project". You can create a dedicated/new project if you wish. 
+- You will be needed to create a new "Environment", download the installation manifest for the  chaos infra and apply it the provided sandbox environment. The detailed set of steps to achieve this can be found here: https://developer.harness.io/docs/chaos-engineering/user-guides/connect-chaos-infrastructures
 
-https://developer.harness.io/docs/chaos-engineering/user-guides/connect-chaos-infrastructures
+**Note**: Please select the "Namespace Mode" option for chaos infrastructure. Selection of "Cluster Wide" option can result in failure/is unsupported for this workshop. 
 
 ## Connect The Custom ChaosHub
+
+- The project is already configured with the "Enterprise ChaosHub" which consists of all the supported faults. However, to simplify things, we have a
+  dedicated/custom chaos artifact source for this workshop. 
+- Add a new chaoshub by following the steps outlined here: https://developer.harness.io/docs/chaos-engineering/user-guides/add-chaos-hub. Use the github   repo URL https://github.com/chaoscarnival/hub-workshop-2023
+- Browse the newly added chaoshub. You will see 4 chaos experiments ready to be launched. 
 
 ## Launch Experiment #1 
 
