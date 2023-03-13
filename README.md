@@ -25,24 +25,26 @@ Welcome to the Chaos Workshop!! Follow the steps provided below to successfully 
 - Fill up and submit this [form](https://docs.google.com/forms/d/e/1FAIpQLScgLSi2W8LystCMSTP3SICSHfI8jADieU3Pbp-ZMvhhhSS0Fw/viewform) to request a timed (6 hours) sandbox environment to carry out the chaos workshop steps 
 
 - In under 2 minutes, check your email and verify receipt of your sandbox config information, which consits of: 
-  - A KubeConfig file, which you can download and use as the context for navigating the namespace provided 
-    - **Note**: You will need `kubectl` setup in your local workspace to view the resources in your sandbox environment
+  - A KubeConfig file, which you can download and use as the context for navigating the environment provided 
+    - **Note**: You will need `kubectl` setup in your local workspace to view the resources in your sandbox environment (which is a Kubernetes Namespace bearing the name ***firstname-lastname-ns***).
   - URLs to a sample microservices application (which will be subjected to chaos during the workshop), the grafana dashboard where it is monitored along    with the corresponding prometheus endpoint.
+
+**Note**: If you don't receive the email containing access info to the sandbox environment within 5 minutes, please send an email to *adarsh.kumar@harness.io, karthik.s@harness.io* OR reach out on this [slack channel](https://join.slack.com/share/enQtNDkzNDc4MDkzMDUzMy1hM2I0MDEzMGM3MWJmYjBlMTE4ZjU4MDk1ZjQ2OWUyYTBmM2FlNzllNTUzNWY4N2E3MDRlZDc1OTMxNzMzMWI3)
   
 ## Setup The Chaos Infrastructure 
 
 - Now, proceed with setting up of the chaos infrastructure on the "default project". You can create a dedicated/new project if you wish. 
-- You will be needed to create a new "Environment", download the installation manifest for the  chaos infra and apply it the provided sandbox environment. The detailed set of steps to achieve this can be found here: https://developer.harness.io/docs/chaos-engineering/user-guides/connect-chaos-infrastructures
+- You will be needed to create a new "Environment", download the installation manifest for the  chaos infra and apply it in the provided sandbox environment. The detailed set of steps to achieve this can be found here: https://developer.harness.io/docs/chaos-engineering/user-guides/connect-chaos-infrastructures
 
 **Note**: Please select the "Namespace Mode" option for chaos infrastructure. Selection of "Cluster Wide" option can result in failure/is unsupported for this workshop. 
 
 ## Connect The Custom ChaosHub
 
 - The project is already configured with the "Enterprise ChaosHub" which consists of all the supported faults. However, to simplify things, we have a
-  dedicated/custom chaos artifact source for this workshop. 
-- Add a new chaoshub by following the steps outlined here: https://developer.harness.io/docs/chaos-engineering/user-guides/add-chaos-hub. 
+  dedicated/custom chaos artifact source for this workshop.
   
-  Use the github   repo URL https://github.com/chaoscarnival/hub-workshop-2023
+- Add a new chaoshub by following the steps outlined here: https://developer.harness.io/docs/chaos-engineering/user-guides/add-chaos-hub by using the 
+  GitHub repo URL https://github.com/chaoscarnival/hub-workshop-2023
  
 - Browse the newly added chaoshub. You will see 4 chaos experiments ready to be launched. 
 
@@ -133,7 +135,7 @@ Welcome to the Chaos Workshop!! Follow the steps provided below to successfully 
 
 ## Share Your Workshop Results With The Harness Team
 
-- Share Screenshots of the "Chaos Experiment Overview Page" for all 4 chaos experiments in this slack channel: https://join.slack.com/share/enQtNDkzNDc4MDkzMDUzMy1hM2I0MDEzMGM3MWJmYjBlMTE4ZjU4MDk1ZjQ2OWUyYTBmM2FlNzllNTUzNWY4N2E3MDRlZDc1OTMxNzMzMWI3 
+- Share Screenshots of the "Chaos Experiment Overview Page" for all 4 chaos experiments in this [slack channel](https://join.slack.com/share/enQtNDkzNDc4MDkzMDUzMy1hM2I0MDEzMGM3MWJmYjBlMTE4ZjU4MDk1ZjQ2OWUyYTBmM2FlNzllNTUzNWY4N2E3MDRlZDc1OTMxNzMzMWI3) 
 
-**Note**: Please ensure that the screenshots cover the browser address bar with account info in the URL! 
+**Note**: Please ensure that the screenshots cover the browser address bar with account ID in the URL! 
 
