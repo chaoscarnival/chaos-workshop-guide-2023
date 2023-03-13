@@ -1,6 +1,6 @@
 # Chaos Workshop
 
-Welcome to the Chaos Workshop!! Follow the steps provided below to successfully complete the chaos workshop. Earn your certificate & win prizes by sharing the workshop completion details on #slack-channel !! 
+Welcome to the Chaos Workshop!! Follow the steps provided below to successfully complete the chaos workshop. Earn your certificate & win prizes by sharing the workshop completion details on the [#chaos-carnival](https://join.slack.com/share/enQtNDkzNDc4MDkzMDUzMy1hM2I0MDEzMGM3MWJmYjBlMTE4ZjU4MDk1ZjQ2OWUyYTBmM2FlNzllNTUzNWY4N2E3MDRlZDc1OTMxNzMzMWI3) slack channel !! 
 
 ## Prerequisites for the Chaos Workshop 
 
