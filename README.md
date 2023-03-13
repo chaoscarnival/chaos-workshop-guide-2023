@@ -44,24 +44,35 @@ Welcome to the Chaos Workshop!! Follow the steps provided below to successfully 
 - Browse the newly added chaoshub. You will see 4 chaos experiments ready to be launched. 
 
   <img width="1718" alt="Screenshot 2023-03-13 at 4 29 50 PM" src="https://user-images.githubusercontent.com/21166217/224683043-41c3c8ff-c738-4fcb-bcb9-ca8407cd9f73.png">
+  
 
+## Online-Boutique: A Summary of the Chaos Experimentation Activity
 
-## Launch Experiment #1 
+- The workshop details chaos experiments against (an instrumented version of) the demo microservices application [Online Boutique](https://github.com/GoogleCloudPlatform/microservices-demo)  
+- The experiments involve injection of different types of chaos on a given microservice (ex: carts) OR multiple microservices accompanied by validation of specific constraints (hypotheses) around application behaviour and user impact. 
+- The chaos experiment progress, its logs and eventually, the results can be viewed on the respective overview page, while real-time impact can be observed on the Grafana dashboard
+
+For more inputs on other experiment-related user actions on the chaos module, follow the live guided workshop during the Chaos Carnival (March 16 <CST>) / refer the video recording {to be updated once event concludes}. 
+
+## Launch Experiment #1 (State Chaos): `boutique-carts-pod-bounce`
+
+### UseCase
+
+In this experiment, we randomly bounce/delete pods belonging to the carts microservice  
+
+### Things to Observe
+
+## Launch Experiment #2 (Network Chaos)
 
 ### UseCase
 ### Things to Observe
 
-## Launch Experiment #2
+## Launch Experiment #3 (Resource Chaos)
 
 ### UseCase
 ### Things to Observe
 
-## Launch Experiment #3 
-
-### UseCase
-### Things to Observe
-
-## Launch Experiment #4 
+## Launch Experiment #4 (Multi-Fault Chaos)
 
 ### UseCase
 ### Things to Observe
