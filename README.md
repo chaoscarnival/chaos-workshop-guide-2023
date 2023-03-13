@@ -127,7 +127,7 @@ Welcome to the Chaos Workshop!! Follow the steps provided below to successfully 
 
 #### Activity 
 
-- Upon "Launch Experiment", select the appropriate chaos infrastructure (connected in the previous steps) & provide the appropriate `App Namespace` in the `Target Application` section of each individual faults. Proceed to run the chaos experiment.
+- Upon "Launch Experiment", select the appropriate chaos infrastructure (connected in the previous steps) & provide the appropriate `App Namespace` in the `Target Application` section of each individual faults. The app labels are already pre-configured to target carts, shipping and ad services. Proceed to run the chaos experiment.
 
 #### Expected Result
 
