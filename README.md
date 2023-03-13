@@ -43,6 +43,9 @@ Welcome to the Chaos Workshop!! Follow the steps provided below to successfully 
 - Add a new chaoshub by following the steps outlined here: https://developer.harness.io/docs/chaos-engineering/user-guides/add-chaos-hub. Use the github   repo URL https://github.com/chaoscarnival/hub-workshop-2023
 - Browse the newly added chaoshub. You will see 4 chaos experiments ready to be launched. 
 
+  <img width="1718" alt="Screenshot 2023-03-13 at 4 29 50 PM" src="https://user-images.githubusercontent.com/21166217/224683043-41c3c8ff-c738-4fcb-bcb9-ca8407cd9f73.png">
+
+
 ## Launch Experiment #1 
 
 ### UseCase
