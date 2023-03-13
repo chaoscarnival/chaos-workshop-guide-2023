@@ -56,7 +56,7 @@ Welcome to the Chaos Workshop!! Follow the steps provided below to successfully 
 
 ## Launch Experiment #1 (State Chaos): `boutique-carts-pod-bounce`
 
-### UseCase
+#### UseCase
 
 - In this experiment, we randomly bounce/delete pods belonging to the carts microservice. The intent of state chaos such as this is to verify impact upon pod kills that occur as a result of evictions, upgrades etc.,
 
@@ -66,17 +66,17 @@ Welcome to the Chaos Workshop!! Follow the steps provided below to successfully 
   - Continuous availability of the microservice under test
   - Expected levels of latency on the website upon user actions (simulated via loadgenerator) 
 
-### Activity 
+#### Activity 
 
 - Upon "Launch Experiment", select the appropriate chaos infrastructure (connected in the previous steps) & provide the appropriate `App Namespace` in the `Target Application` section. Proceed to run the chaos experiment.
 
-### Expected Result
+#### Expected Result
 
 - While the resource health is maintained before & after the experiment, the availability and performance constraints are not met, leading to probe failures and hence, a low resilience score. 
 
-## Launch Experiment #2 (Network Chaos)
+## Launch Experiment #2 (Network Chaos): `boutique-carts-degraded-network`
 
-### UseCase
+#### UseCase
 
 - In this experiment, we inject network latency (with jitter, to randomize extent of latency) to the carts microservice to simulate a degraded cluster network. This is also one of the most popular ways to simulate latency between services across AZs/regions. The intent is to evaluate if the network delay is handled within the system OR is propagated upwards to cause degraded user experience on the website's transactions.  
 
@@ -86,17 +86,17 @@ Welcome to the Chaos Workshop!! Follow the steps provided below to successfully 
   - Continuous availability of the microservice under test
   - Expected levels of latency on the website upon user actions (simulated via loadgenerator) 
 
-### Activity 
+#### Activity 
 
 - Upon "Launch Experiment", select the appropriate chaos infrastructure (connected in the previous steps) & provide the appropriate `App Namespace` in the `Target Application` section. Proceed to run the chaos experiment.
 
-### Expected Result
+#### Expected Result
 
 - While the resource health is maintained before & after the experiment and the website continues to be available, the performance constraints are not met, leading to probe failure and hence, a low resilience score. 
 
-## Launch Experiment #3 (Resource Chaos)
+## Launch Experiment #3 (Resource Chaos): `boutique-carts-cpu-starvation`
 
-### UseCase
+#### UseCase
 
 - In this experiment, we hog the cpu resources in the pod belonging to the carts microservice, simulating a high-traffic situation in which the service is deprived of cpu cycles, leading to slower responses. The intent is to evaluate whether the slowness is handled within the system OR is propagated upwards to cause degraded user experience on the website's transactions. 
 
@@ -106,29 +106,31 @@ Welcome to the Chaos Workshop!! Follow the steps provided below to successfully 
   - Continuous availability of the microservice under test
   - Expected levels of latency on the website upon user actions (simulated via loadgenerator)
 
-### Activity 
+#### Activity 
 
 - Upon "Launch Experiment", select the appropriate chaos infrastructure (connected in the previous steps) & provide the appropriate `App Namespace` in the `Target Application` section. Proceed to run the chaos experiment.
 
-### Expected Result
+#### Expected Result
 
 - While the resource health is maintained before & after the experiment and the website continues to be available, the performance constraints are not met, leading to probe failure and hence, a low resilience score. 
 
-## Launch Experiment #4 (Multi-Fault Chaos)
+## Launch Experiment #4 (Multi-Fault Chaos): `boutique-multi-fault-scenario`
 
-### UseCase
+#### UseCase
 
 - In this experiment, we illustrate the ability to string faults together in a desired fashion to generate *complex scenarios* that reproduce past outage conditions OR are used as stressors/mechanisms to evaluate multi-component failure. 
 
-### Activity 
+#### Activity 
 
 - Upon "Launch Experiment", select the appropriate chaos infrastructure (connected in the previous steps) & provide the appropriate `App Namespace` in the `Target Application` section of each individual faults. Proceed to run the chaos experiment.
 
-### Expected Result
+#### Expected Result
 
 - This experiment is oriented towards illustrating multi-fault capabilities. The probe successes/failures are aligned with the ones explained in the previous runs. 
 
 ## Share Your Workshop Results With The Harness Team
 
+- Share Screenshots of the "Chaos Experiment Overview Page" for all 4 chaos experiments in this slack channel: https://join.slack.com/share/enQtNDkzNDc4MDkzMDUzMy1hM2I0MDEzMGM3MWJmYjBlMTE4ZjU4MDk1ZjQ2OWUyYTBmM2FlNzllNTUzNWY4N2E3MDRlZDc1OTMxNzMzMWI3 
 
+**Note**: Please ensure that the screenshots cover the browser address bar with account info in the URL! 
 
