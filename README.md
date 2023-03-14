@@ -36,7 +36,10 @@ Welcome to the Chaos Workshop!! Follow the steps provided below to successfully 
 - Now, proceed with setting up of the chaos infrastructure on the "default project". You can create a dedicated/new project if you wish. 
 - You will be needed to create a new "Environment", download the installation manifest for the  chaos infra and apply it in the provided sandbox environment. The detailed set of steps to achieve this can be found here: https://developer.harness.io/docs/chaos-engineering/user-guides/connect-chaos-infrastructures
 
-**Note**: Please select the "Namespace Mode" option for chaos infrastructure and provide the appropriate namespace name (use the namespace provided as part of your sandbox environment instead of the default `hce`). Selection of "Cluster Wide" option can result in failure/is unsupported for this workshop. 
+**Notes**: 
+- Please select the "Namespace Mode" option for chaos infrastructure and provide the appropriate namespace name (use the namespace provided as part of your sandbox environment instead of the default `hce`). 
+- Ignore the instructions to create namespace and to apply the CRDs (These steps are already performed for you as part of the sandbox env creation)
+- Selection of "Cluster Wide" option can result in failure/is **unsupported for this workshop**. 
 
 ## Connect The Custom ChaosHub
 
