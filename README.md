@@ -46,8 +46,9 @@ Welcome to the Chaos Workshop!! Follow the steps provided below to successfully 
 - The project shall contain the default "Enterprise ChaosHub" which consists of all the supported faults. However, to simplify things, we have a
   dedicated custom chaos artifact source for this workshop.
   
-- Add a new chaoshub by following the steps outlined here: https://developer.harness.io/docs/chaos-engineering/user-guides/add-chaos-hub by using the 
-  GitHub repo URL https://github.com/chaoscarnival/hub-workshop-2023
+- Fork https://github.com/chaoscarnival/hub-workshop-2023 to your GitHub account.
+  
+- Add your fork as a new chaoshub by following the steps outlined here: https://developer.harness.io/docs/chaos-engineering/user-guides/add-chaos-hub.
  
 - Browse the newly added chaoshub. You will see 4 chaos experiments ready to be launched. 
 
