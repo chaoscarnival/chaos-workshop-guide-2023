@@ -34,17 +34,17 @@ Welcome to the Chaos Workshop!! Follow the steps provided below to successfully 
 ## Setup The Chaos Infrastructure 
 
 - Now, proceed with setting up of the chaos infrastructure on the "default project". You can create a dedicated/new project if you wish. 
-- You will be needed to create a new "Environment", download the installation manifest for the  chaos infra and apply it in the provided sandbox environment. The detailed set of steps to achieve this can be found here: https://developer.harness.io/docs/chaos-engineering/user-guides/connect-chaos-infrastructures
+- You will be needed to create a new "Environment", configure your chaos infrastructure, download the installation manifest for the chaos infra and apply it in the provided sandbox environment. The detailed set of steps to achieve this can be found here: https://developer.harness.io/docs/chaos-engineering/user-guides/connect-chaos-infrastructures
 
 **Notes**: 
-- Please select the "Namespace Mode" option for chaos infrastructure and provide the appropriate namespace name (use the namespace provided as part of your sandbox environment instead of the default `hce`). 
+- Please select the "Namespace Mode" option for chaos infrastructure and provide the appropriate namespace name (use the namespace provided as part of your sandbox environment instead of the default `hce`).
 - Ignore the instructions to create namespace and to apply the CRDs (These steps are already performed for you as part of the sandbox env creation)
-- Selection of "Cluster Wide" option can result in failure/is **unsupported for this workshop**. 
+- Selection of "Cluster Wide" option can result in failure, it is strictly **unsupported for this workshop**.
 
 ## Connect The Custom ChaosHub
 
-- The project is already configured with the "Enterprise ChaosHub" which consists of all the supported faults. However, to simplify things, we have a
-  dedicated/custom chaos artifact source for this workshop.
+- The project shall contain the default "Enterprise ChaosHub" which consists of all the supported faults. However, to simplify things, we have a
+  dedicated custom chaos artifact source for this workshop.
   
 - Add a new chaoshub by following the steps outlined here: https://developer.harness.io/docs/chaos-engineering/user-guides/add-chaos-hub by using the 
   GitHub repo URL https://github.com/chaoscarnival/hub-workshop-2023
@@ -56,8 +56,8 @@ Welcome to the Chaos Workshop!! Follow the steps provided below to successfully 
 
 ## Online-Boutique: A Summary of the Chaos Experimentation Activity
 
-- The workshop details chaos experiments against (an instrumented version of) the demo microservices application [Online Boutique](https://github.com/GoogleCloudPlatform/microservices-demo). The application is constantly under "usage" via a synthetic load generator. 
-- The experiments involve injection of different types of chaos on a given microservice (ex: carts) OR multiple microservices accompanied by validation of specific constraints (hypotheses) around application behaviour and user impact. 
+- The workshop details chaos experiments against (an instrumented version of) the demo microservices application [Online Boutique](https://github.com/GoogleCloudPlatform/microservices-demo). The application is simulated to be constantly under "usage" via a load generator component. 
+- The experiments involve injection of different types of chaos faults on a given microservice (ex: carts) OR multiple microservices accompanied by validation of specific constraints (hypotheses) around application behaviour and user impact. 
 
   Steps to launch chaos experiments from the ChaosHub & view its progress are outlined here: https://developer.harness.io/docs/chaos-engineering/user-guides/construct-and-run-custom-chaos-experiments#templates-from-chaos-hubs
 
