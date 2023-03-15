@@ -59,11 +59,11 @@ Welcome to the Chaos Workshop!! Follow the steps provided below to successfully 
 - The workshop details chaos experiments against (an instrumented version of) the demo microservices application [Online Boutique](https://github.com/GoogleCloudPlatform/microservices-demo). The application is simulated to be constantly under "usage" via a load generator component. 
 - The experiments involve injection of different types of chaos faults on a given microservice (ex: carts) OR multiple microservices accompanied by validation of specific constraints (hypotheses) around application behaviour and user impact. 
 
-  Steps to launch chaos experiments from the ChaosHub & view its progress are outlined here: https://developer.harness.io/docs/chaos-engineering/user-guides/construct-and-run-custom-chaos-experiments#templates-from-chaos-hubs
+  Steps to launch chaos experiments from the ChaosHub & view its progress are outlined here: https://developer.harness.io/docs/chaos-engineering/user-guides/construct-and-run-custom-chaos-experiments#launch-an-experiment-from-chaos-hub
 
 - The chaos experiment progress, its logs and eventually, the results can be viewed on the respective overview page, while real-time impact can be observed on the Grafana dashboard
 
-*For more inputs on other experiment-related user actions on the chaos module, follow the live guided workshop during the Chaos Carnival (March 16 <CST>) / refer the video recording (to be updated once event concludes).*
+*For more inputs on other experiment-related user actions on the chaos module, follow the live guided workshop during the Chaos Carnival (March 15 13:45 CDT) or refer to the [workshop video recording](https://drive.google.com/file/d/1t4L-goHTVwzsO-tajdRIepU20JCC8AMl/view?usp=sharing).*
 
 ## Launch Experiment #1 (State Chaos): `boutique-carts-pod-bounce`
 
