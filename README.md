@@ -1,6 +1,6 @@
 # Chaos Workshop
 
-Welcome to the Chaos Workshop!! Follow the steps provided below to successfully complete the chaos workshop. Earn your certificate & win prizes by sharing the workshop completion details on the [#chaos-carnival](https://join.slack.com/share/enQtNDkzNDc4MDkzMDUzMy1hM2I0MDEzMGM3MWJmYjBlMTE4ZjU4MDk1ZjQ2OWUyYTBmM2FlNzllNTUzNWY4N2E3MDRlZDc1OTMxNzMzMWI3) slack channel !! 
+Welcome to the Chaos Workshop!! Follow the steps provided below to successfully complete the chaos workshop. Earn your certificate & win prizes by sharing the workshop completion details on the [#chaos-carnival](https://join.slack.com/t/harnesscommunity/shared_invite/zt-1r72yziky-Q7moAPZgfnVdT22zv~mylw) slack channel !! 
 
 *To catch the workshop steps live, join the session during [Day-1 of Chaos Carnival (March 15, 13:45 CDT)](https://chaoscarnival.io/schedule) or refer to this [Recording](https://drive.google.com/file/d/1t4L-goHTVwzsO-tajdRIepU20JCC8AMl/view?usp=sharing).*
 
@@ -31,7 +31,7 @@ Welcome to the Chaos Workshop!! Follow the steps provided below to successfully 
     - **Note**: You will need `kubectl` setup in your local workspace to view the resources in your sandbox environment (which is a Kubernetes Namespace bearing the name ***firstname-lastname-ns***).
   - URLs to a sample microservices application (which will be subjected to chaos during the workshop), the grafana dashboard where it is monitored along    with the corresponding prometheus endpoint.
 
-**Note**: If you don't receive the email containing access info to the sandbox environment within 5 minutes, please send an email to *adarsh.kumar@harness.io, karthik.s@harness.io* OR reach out on this [slack channel](https://join.slack.com/share/enQtNDkzNDc4MDkzMDUzMy1hM2I0MDEzMGM3MWJmYjBlMTE4ZjU4MDk1ZjQ2OWUyYTBmM2FlNzllNTUzNWY4N2E3MDRlZDc1OTMxNzMzMWI3)
+**Note**: If you don't receive the email containing access info to the sandbox environment within 5 minutes, please send an email to *adarsh.kumar@harness.io, karthik.s@harness.io* OR reach out on this [slack channel](https://join.slack.com/t/harnesscommunity/shared_invite/zt-1r72yziky-Q7moAPZgfnVdT22zv~mylw)
   
 ## Setup The Chaos Infrastructure 
 
@@ -141,7 +141,7 @@ Welcome to the Chaos Workshop!! Follow the steps provided below to successfully 
 
 ## Share Your Workshop Results With The Harness Team
 
-- Share Screenshots of the "Chaos Experiment Overview Page" for all 4 chaos experiments in this [slack channel](https://join.slack.com/share/enQtNDkzNDc4MDkzMDUzMy1hM2I0MDEzMGM3MWJmYjBlMTE4ZjU4MDk1ZjQ2OWUyYTBmM2FlNzllNTUzNWY4N2E3MDRlZDc1OTMxNzMzMWI3) 
+- Share Screenshots of the "Chaos Experiment Overview Page" for all 4 chaos experiments in this [slack channel](https://join.slack.com/t/harnesscommunity/shared_invite/zt-1r72yziky-Q7moAPZgfnVdT22zv~mylw) 
 
 **Note**: Please ensure that the screenshots cover the browser address bar with account ID in the URL! 
 
